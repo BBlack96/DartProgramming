@@ -6,16 +6,20 @@ void main() {
 
     if (age < 18) {
         print("Дитина - пропускаємо, плату не беремо");
-      } else if(age < 55) {
+      }
+    else if(age < 55) {
         if (isPaid) {
             print("Дорослий. Оплата : $isPaid - Пропускаємо");
-          } else {
+          }
+        else {
           print("Дорослий. Оплата : $isPaid - не пропускаємо");
         }
-    } else if (age >= 55 && !isPaid ){
+    }
+    else if (age >= 55 && !isPaid ){
         if (hasPensionersId ) {
             print("Пенсіонер. Пенсійне посвідчення: $hasPensionersId - пропускаємо");
-          } else {
+          }
+        else {
           print("Пенсіонер. Пенсійне посвідчення: $hasPensionersId - не пропускаємо");
         }
     }
