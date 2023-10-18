@@ -15,10 +15,12 @@ void main() {
 
   for (var element in finalEdits) {
 
-    // Прибираємо символ "=" щоб залишилась пара ключ:значення
+    // Прибираємо символ "=" щоб залишилась пара ключ:значення (умовно)
     List<String>keyValue = element.split('=');
-    int number = int.parse(keyValue[1]); // Перетворюємо значення масиву у int
-    sum += number; // Отримане значення додаємо до змінної sum
+    // Перетворюємо значення другого элементу (тобто числа) в int
+    int number = int.parse(keyValue[1]);
+    // Отримане значення додаємо до змінної sum
+    sum += number;
   }
 
   print("Сума чисел: $sum");
