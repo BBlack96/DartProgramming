@@ -1,12 +1,12 @@
 void main() {
-  Human first_human = Human("Daria", 10, 100);
-  Human second_human = Human("Oleg", 15, 140);
-  first_human.growth();
-  first_human.changeName("Mariya");
-  print(first_human.name);
-  second_human.growth();
-  second_human.changeName("Dave");
-  print(second_human.name);
+  Human firstHuman = Human("Daria", 10, 100);
+  Human secondHuman = Human("Oleg", 15, 140);
+  firstHuman.growth();
+  firstHuman.changeName("Mariya");
+  print(firstHuman.name);
+  secondHuman.growth();
+  secondHuman.changeName("Dave");
+  print(secondHuman.name);
 }
 
 class Human {
