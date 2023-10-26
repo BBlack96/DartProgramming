@@ -33,7 +33,7 @@ class Calculator {
 
   dynamic division() {
     if (secondDigit == 0) {
-      throw Exception("Ошибка: нельзя делить на ноль.");
+      throw Exception("Помилка: не можна ділити на нуль.");
     }
     double result = firstDigit / secondDigit;
     if (result == result.toInt()) {
