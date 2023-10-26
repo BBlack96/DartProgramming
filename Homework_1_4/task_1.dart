@@ -29,12 +29,11 @@ class Human {
         height += 8;
         print(
             "Людина на ім'я $name зараз $age років, та її зріст складає $height см.");
-      }
-      else if (age <= 25) {
+      } else if (age <= 25) {
         height += 3;
-        print("Людина на ім'я $name зараз $age років, та її зріст складає $height см.");
-      }
-      else if (age < 60) {
+        print(
+            "Людина на ім'я $name зараз $age років, та її зріст складає $height см.");
+      } else if (age < 60) {
         print(
             "Поки вік $name менше 60-ти років, зріст не змінюється, зараз їй $age років");
       } else {

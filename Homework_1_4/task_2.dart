@@ -2,7 +2,7 @@ void main() {
   Calculator sumOperation = Calculator(10, 5, '+');
   Calculator subOperation = Calculator(30, 5, '-');
   Calculator multipleOperation = Calculator(25, 4, "*");
-  Calculator divisionOperation = Calculator(2, 2, "/");
+  Calculator divisionOperation = Calculator(2, 0, "/");
   print(sumOperation.sum());
   print(subOperation.subtraction());
   print(multipleOperation.multiplication());
