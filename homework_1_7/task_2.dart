@@ -7,4 +7,7 @@ double calculateCircleArea(double radius) {
   return pi * radius * radius;
 }
 
+double calculateSquareArea(double side) {
+  return side * side;
+}
 
