@@ -10,6 +10,7 @@ void main() {
 
     int quotient = integerDivision(numerator, denominator);
     print("Результат цілочисельного ділення: $quotient");
+    //test
 
 
     int remainder = calculateRemainder(numerator, denominator);
