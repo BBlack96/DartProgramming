@@ -3,9 +3,9 @@ void main() {
   String lastName = "Чорний";
   List<Comment>? comments = [
     Comment("Геральт", "із Ривії", "Ворушись, Плотва!", "12-11-2023"),
-    Comment("Джон", "Сноу", "Зима близько", "11-11-2023"),
+    Comment("Джон", "Сноу", "Зима близько", "11-11-2023")
   ];
-  Reactions? reactions = Reactions("5", "10", "15");
+  Reactions? reactions = Reactions(null, null, null);
 
   UserData userData = UserData(name, lastName, comments, reactions);
 
